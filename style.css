@@ -84,7 +84,7 @@ text-decoration: none;
 {
 width: 100%;
 height: 100vh;
-background-image: url(1background.png);
+background-image: url(img/bg1.png);
 background-position: center;
 background-size: cover;
 }
