@@ -1,72 +1,66 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
- }
-
-.navbar
-{
- width: 100%;
- padding: 0px 0px 0px 0px ;
- display:flex;
- align-items: center;
- justify-content:space-between;
- cursor: pointer;
+}
+/* NavBar */
+.navbar {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
 }
 
-.logo
-{
- width: 150px;
- cursor:pointer;
- }
- 
- .navbar ul li
- {
+.logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+.navbar ul li {
   position: relative;
-  right:80px;
+  right: 80px;
   left: px;
   list-style: none;
   display: inline-block;
   margin: 15px 0px 0px 50px;
-  padding: 0px ;
+  padding: 0px;
   font-weight: bold;
- }
+}
 
-li::after
-{
+li::after {
   content: '';
-  height: 3px ;
-  width: 0% ;
-  background-color:aqua ;
+  height: 3px;
+  width: 0%;
+  background-color:#3700ff;
   display: block;
   transition: .3s ease-in-out;
-  }
-  
-li:hover:after{
+}
+
+li:hover:after {
   content: '';
-  height: 3px ;
-  width: 100% ;
+  height: 3px;
+  width: 100%;
   background-color: rgb(255, 0, 0);
   display: block;
 }
 
-.navbar ul li a
-{
-text-decoration: none;
- color: white;
- text-transform: uppercase;
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
 }
 
-#button
-{
+#button {
   position: absolute;
   right: 10px;
   top: 25px;
   padding: 4px 10px 4px 10px;
   background-color: rgb(243, 1, 1);
-  border-radius:20px;
+  border-radius: 20px;
   border-color: white;
   transition: transform .4s;
-  border-style:none;
+  border-style: none;
   font-family: 'Poppins', sans-serif;
   font-weight: 0px;
   color: aliceblue;
@@ -74,90 +68,222 @@ text-decoration: none;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
-#button:hover
-{
+#button:hover {
   transform: scale(1.1);
 }
 
-.banner
-{
-width: 100%;
-height: 100vh;
-background-image: url(img/bg1.png);
-background-position: center;
-background-size: cover;
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/bg1.png);
+  background-position: center;
+  background-size: cover;
 }
 
-.content1
-{
-top: 50%;
-position: absolute;
-right: 50%;
-left: 8%;
+.content1 {
+  top: 50%;
+  position: absolute;
+  right: 50%;
+  left: 8%;
 
 }
 
-
-h4
-{
+/* Content */
+h4 {
   color: aliceblue;
   font-family: 'Fuzzy Bubbles', cursive;
   font-size: 170%;
 }
 
-h2
-{
-margin: -1px;
-margin-top: -19px;
-margin-bottom: auto;
-color: aliceblue;
-font-family: 'Roboto', sans-serif;
-font-size: 600%;
+h2 {
+  margin: -1px;
+  margin-top: -19px;
+  margin-bottom: auto;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 600%;
+}
+#namste {
+  font-size: 106%;
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  color: aliceblue;
+}
+.content1{
+  background-color:black;
+}
+/*.animation {
+  background-color: blue;
+  position: relative;
+  animation-name: nuralcode;
+  animation-duration: 8s;
+  animation-iteration-count: 3;
 }
 
-span
-{
-color: red;
+@keyframes nuralcode {
+  from {
+    width: 200px;
+  }
+
+  to {
+    width: 400px;
+
+  }
+} */
+
+span {
+  color: red;
 }
 
 /* -----about us-------*/
 
- .back2{
+.back2 {
   background-color: rgb(23, 22, 22);
   width: 100%;
   height: 100vh;
-} 
+}
 
 /* .image{
   background-image: url(img/image2.png);
   width: 100vh;
   height: 100%;
 } */
-#head1{
+#head1 {
   margin: 0px 0px 0px 0px;
   padding: 1px 12% 1px 12%;
   position: relative;
   top: 120%;
   color: aliceblue;
-  font-size: 500%;
-  font-weight:bold;
+  font-size: 450%;
+  font-weight: bold;
   font-family: 'Archivo Black', sans-serif;
   text-transform: uppercase;
   text-align: center;
 
 }
 
-#namste{
-  font-size: 106%;
-  font-family: 'Kalam', cursive;
-  font-weight: 400;
-  color: aliceblue;
-}
+/* -----card 1 -------*/
+  .cardfirst {
+    position: absolute;
+    top: 140%; 
+    left: 6rem;
+    width: 250px;
+    height: 313px;
+    background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+   }
+   
+   .cardsecond {
+    width: 250px;
+    height: 313px;
+    background-color: #000000;
+    border-radius: 19px;
+    transition: all .2s;
+  }
 
-.box1{
+
+   .cardsecond {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .cardfirst:hover {
+    box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+   }
+   /* -----subcard 1------- */
+
+ .subcardfirst {
   position: absolute;
-  top: 110%;
-  height: 50%;
-  width: 50%;
-  background-color: rgb(249, 0, 0);
-}
+  left: 28rem;
+  top: 140%;
+  width: 250px;
+  height: 313px;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+ }
+ 
+ .subcardsecond {
+  width: 250px;
+  height: 313px;
+  background-color: #000000;
+  border-radius: 19px;
+  transition: all .2s;
+ }
+ 
+ .subcardsecond {
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .subcardfirst:hover {
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+ }
+
+ 
+ /* -----card 2-------*/
+ .card1 {
+    position: absolute;
+    top: 140%;
+    right: 28rem;
+    width: 250px;
+    height: 313px;
+   background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+ }
+ 
+ .card2 {
+  width: 250px;
+  height: 313px;
+  background-color: #000000;
+  border-radius: 19px;
+  transition: all .2s;
+ }
+ 
+ .card2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .card1:hover{
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+ }
+ /* -----subcard two-------*/
+
+.subcard1 {
+  position: absolute;
+  top: 140%;
+  right: 6rem;
+  width: 250px;
+  height: 313px;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+ }
+ 
+ .subcard2 {
+  width: 250px;
+  height: 313px;
+  background-color: #000000;
+  border-radius: 19px;
+  transition: all .2s;
+ }
+ 
+ .subcard2{
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .subcard1:hover{
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+ }
+ 
+ 
+   /*--------------------- services.---------------------------- */
+   .back3 {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+  }
