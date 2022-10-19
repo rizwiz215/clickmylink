@@ -28,6 +28,7 @@
   display: inline-block;
   margin: 15px 0px 0px 50px;
   padding: 0px ;
+  font-weight: bold;
  }
 
 li::after
@@ -37,7 +38,7 @@ li::after
   width: 0% ;
   background-color:aqua ;
   display: block;
-  transition: .5s ease-in-out;
+  transition: .3s ease-in-out;
   }
   
 li:hover:after{
@@ -101,7 +102,7 @@ h4
 {
   color: aliceblue;
   font-family: 'Fuzzy Bubbles', cursive;
-  font-size: 25px;
+  font-size: 170%;
 }
 
 h2
@@ -111,7 +112,7 @@ margin-top: -19px;
 margin-bottom: auto;
 color: aliceblue;
 font-family: 'Roboto', sans-serif;
-font-size: 75px;
+font-size: 600%;
 }
 
 span
@@ -121,20 +122,42 @@ color: red;
 
 /* -----about us-------*/
 
-.back2{
+ .back2{
   background-color: rgb(23, 22, 22);
   width: 100%;
   height: 100vh;
-}
+} 
 
+/* .image{
+  background-image: url(img/image2.png);
+  width: 100vh;
+  height: 100%;
+} */
 #head1{
+  margin: 0px 0px 0px 0px;
+  padding: 1px 12% 1px 12%;
   position: relative;
   top: 120%;
   color: aliceblue;
-  font-size: 75px;
+  font-size: 500%;
   font-weight:bold;
   font-family: 'Archivo Black', sans-serif;
   text-transform: uppercase;
   text-align: center;
 
+}
+
+#namste{
+  font-size: 106%;
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+.box1{
+  position: absolute;
+  top: 110%;
+  height: 50%;
+  width: 50%;
+  background-color: rgb(249, 0, 0);
 }
