@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
+
 /*--------------------- Navbar.---------------------------- */
 .navbar {
   width: 100%;
@@ -33,7 +34,7 @@ li::after {
   content: '';
   height: 3px;
   width: 0%;
-  background-color:#3700ff;
+  background-color: #3700ff;
   display: block;
   transition: .3s ease-in-out;
 }
@@ -104,15 +105,18 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 600%;
 }
+
 #namste {
   font-size: 106%;
   font-family: 'Kalam', cursive;
   font-weight: 400;
   color: rgb(255, 0, 0)246, 255;
 }
-.content1{
-  background-color:black;
+
+.content1 {
+  background-color: black;
 }
+
 /*.animation {
   background-color: blue;
   position: relative;
@@ -164,97 +168,99 @@ span {
 }
 
 /* -----card 1 -------*/
-  .cardfirst {
-    position: absolute;
-    top: 190%; 
-    left: 6%;
-    width: 250px;
-    height: 313px;
-    background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
-    border-radius: 20px;
-    transition: all .3s;
-   }
-   
-   .cardsecond {
-    width: 250px;
-    height: 313px;
-    background-color: #000000;
-    border-radius: 19px;
-    transition: all .2s;
-  }
-
-
-   .cardsecond {
-    transform: scale(0.98);
-    border-radius: 20px;
-   }
-   
-   .cardfirst:hover {
-    box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
-   }
-   /* ISSUE */
-
-   /* -----card 2------- */
- .subcardfirst {
+.cardfirst {
   position: absolute;
-  left: 29%;
   top: 190%;
-  width: 250px;
+  right: 67%;
+  width: 300px;
   height: 313px;
   background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
   border-radius: 20px;
   transition: all .3s;
- }
- 
- .subcardsecond {
-  width: 250px;
+}
+
+.cardsecond {
+  width: 300px;
   height: 313px;
   background-color: #000000;
   border-radius: 19px;
   transition: all .2s;
- }
- 
- .subcardsecond {
+}
+
+
+.cardsecond {
   transform: scale(0.98);
   border-radius: 20px;
- }
- 
- .subcardfirst:hover {
-  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
- }
+}
 
- 
- /* -----card 3-------*/
- .card1 {
-    position: absolute;
-    top: 190%;
-    left : 52%;
-    width: 250px;
-    height: 313px;
-   background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+.cardfirst:hover {
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
+/* ISSUE */
+
+/* -----card 2------- */
+.subcardfirst {
+  position: absolute;
+  right: 37%;
+  top: 190%;
+  width: 300px;
+  height: 313px;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
   border-radius: 20px;
   transition: all .3s;
- }
- 
- .card2 {
-  width: 250px;
+}
+
+.subcardsecond {
+  width: 300px;
   height: 313px;
   background-color: #000000;
   border-radius: 19px;
   transition: all .2s;
- }
- 
- .card2 {
+}
+
+.subcardsecond {
   transform: scale(0.98);
   border-radius: 20px;
- }
- 
- .card1:hover{
-  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
- }
- /* -----card 4-------*/
+}
 
-.subcard1 {
+.subcardfirst:hover {
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
+
+/* -----card 3-------*/
+.card1 {
+  position: absolute;
+  top: 190%;
+  right: 8%;
+  width: 300px;
+  height: 313px;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+}
+
+.card2 {
+  width: 300px;
+  height: 313px;
+  background-color: #000000;
+  border-radius: 19px;
+  transition: all .2s;
+}
+
+.card2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.card1:hover {
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
+/* -----card 4-------*/
+
+/* .subcard1 {
   position: absolute;
   top: 190%;
   left: 75%;
@@ -263,83 +269,183 @@ span {
   background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
   border-radius: 20px;
   transition: all .3s;
- }
- 
- .subcard2 {
+}
+
+.subcard2 {
   width: 250px;
   height: 313px;
   background-color: #000000;
   border-radius: 19px;
   transition: all .2s;
- }
- 
- .subcard2{
+}
+
+.subcard2 {
   transform: scale(0.98);
   border-radius: 20px;
- }
- 
- .subcard1:hover{
+}
+
+.subcard1:hover {
   box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
- }
- /* ISSUE 1*/
- 
- /*--------------------- Github ---------------------------- */
-  /* IISUE 2 */
-   .back3 {
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 120vh;
-  }
+} */
 
-   .backgroundbuttoncard1 {
-     position: absolute;
-     left: 50%;
-     right:50%;
-     top: 275%;
-     width: 39rem;
-     height: 27rem;
-     background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
-     border-radius: 20px;
-     transition: all .3s;
-   
-   }
-   
-   .backgroundbuttoncard2 {
-    width: 39rem;
-    height: 27rem;
-    background-image: url(img/github.png);
-    background-size: 39rem 27rem;
-    border-radius: 19px;
-    transition: all .2s;
-   }
-   
-   .backgroundbuttoncard2 {
-    transform: scale(0.98);
-    border-radius: 20px;
-   }
-   
-   .backgroundbuttoncard1:hover {
-    box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
-   }
-    /* IISUE 2 */
+/* ISSUE 1*/
 
-   .contentlorem1{
-    position: absolute;
-    top: 275%;
-    left: 6%;
-    color: aliceblue;
-    font-size: 370%;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    padding-right: 50%;
-    padding-bottom: 50%;
-   }
+/*--------------------- Github ---------------------------- */
+/* IISUE 2 */
+.back3 {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 120vh;
+}
 
-   /*--------------------- About ---------------------------- */
-   .back4 {
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 120vh;
-   }
-  
+.backgroundbuttoncard1 {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 275%;
+  width: 39rem;
+  height: 27rem;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+
+}
+
+.backgroundbuttoncard2 {
+  width: 39rem;
+  height: 27rem;
+  background-image: url(img/github.png);
+  background-size: 39rem 27rem;
+  border-radius: 19px;
+  transition: all .2s;
+}
+
+.backgroundbuttoncard2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.backgroundbuttoncard1:hover {
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
+/* IISUE 2 */
+
+.contentlorem1 {
+  position: absolute;
+  top: 275%;
+  left: 6%;
+  color: aliceblue;
+  font-size: 370%;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding-right: 50%;
+  padding-bottom: 50%;
+}
+
+.banner2 {
+  background-image: url(img/banner3.png) ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 125vh;
+}
+
+/* .banner {
+  width: 100%;
+  height: 135vh;
+  background-image: url(img/bg1.png);
+  background-position: center;
+  background-size: cover;
+} */ 
+/* for-demontration */
+
+.contentlorem2 {
+  position: absolute;
+  top:465%;
+  right: 8%;
+  color: aliceblue;
+  font-size: 300%;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding-left: 50%;
+  text-align: right;
+}
+
+/* -----card 3-------*/
+.piyushdwivedicard1 {
+  position: absolute;
+  top: 400%;
+  right: 35%;
+  width: 300px;
+  height: 350px;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+}
+
+.piyushdwivedicard2 {
+  width: 300px;
+  height: 350px;
+  background-color: #000000;
+  border-radius: 19px;
+  transition: all .2s;
+}
+
+.piyushdwivedicard2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.piyushdwivedicard1:hover {
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
+/* -----card 4-------*/
+
+.paraskamdarcard1 {
+  position: absolute;
+  top: 400%;
+  right: 7%;
+  width: 300px;
+  height: 350px;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+}
+
+.paraskamdarcard2 {
+  width: 300px;
+  height: 350px;
+  background-color: #000000;
+  border-radius: 19px;
+  transition: all .2s;
+}
+
+.paraskamdarcard2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.paraskamdarcard1:hover {
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
+/*--------------------- caontact us ---------------------------- */
+
+.back5 {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 120vh;
+}
+
+/*--------------------- footer ---------------------------- */
+
+.back6 {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 50vh;
+}
