@@ -308,6 +308,7 @@ span {
     width: 39rem;
     height: 27rem;
     background-image: url(img/github.png);
+    background-size: 300px 100px;
     border-radius: 19px;
     transition: all .2s;
    }
