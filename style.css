@@ -77,27 +77,27 @@ li:hover:after {
 .banner {
   width: 100%;
   height: 135vh;
-  background-image: url(img/bg1.png);
+  background-image: url(img/background.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.content1 {
+/* Content */
+h4 {
   top: 50%;
   position: absolute;
   right: 50%;
   left: 8%;
-
-}
-
-/* Content */
-h4 {
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
   font-size: 170%;
 }
 
 h2 {
+  top: 60%;
+  position: absolute;
+  right: 50%;
+  left: 8%;
   margin: -1px;
   margin-top: -30px;
   margin-bottom: auto;
@@ -111,10 +111,6 @@ h2 {
   font-family: 'Kalam', cursive;
   font-weight: 400;
   color: rgb(255, 0, 0)246, 255;
-}
-
-.content1 {
-  background-color: black;
 }
 
 /*.animation {
@@ -373,7 +369,7 @@ span {
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
-  padding-left: 50%;
+  padding-left: 49%;
   text-align: right;
 }
 
@@ -475,6 +471,18 @@ span {
   box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
 }
 
+.contentlorem3 {
+  position: absolute;
+  top:550%;
+  right: 8%;
+  color: aliceblue;
+  font-size: 300%;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding-left: 65%;
+
+}
 
 /*--------------------- footer ---------------------------- */
 
