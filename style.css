@@ -344,6 +344,8 @@ span {
   padding-bottom: 50%;
 }
 
+/* ----------about-------------- */
+
 .banner2 {
   background-image: url(img/banner3.png) ;
   background-position: center;
@@ -441,6 +443,38 @@ span {
   width: 100%;
   height: 120vh;
 }
+
+
+.contactus1 {
+  position: absolute;
+  left: 8%;
+  top: 525%;
+  width: 43rem;
+  height: 27rem;
+  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+
+}
+
+.contactus2 {
+  width: 43rem;
+  height: 27rem;
+  background-color: #000000;
+  background-size: 39rem 27rem;
+  border-radius: 19px;
+  transition: all .2s;
+}
+
+.contactus2 {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.contactus1:hover {
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+}
+
 
 /*--------------------- footer ---------------------------- */
 
