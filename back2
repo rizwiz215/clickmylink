@@ -1,7 +1,3 @@
-<!-- html -->
-
-           
-<!-- css -->
 * {
   margin: 0px;
   padding: 0px;
@@ -18,17 +14,17 @@
 }
 
 .logo {
-  width: 9.37rem;
+  width: 150px;
   cursor: pointer;
 }
 
 .navbar ul li {
   position: relative;
-  right: 5rem;
+  right: 80px;
   left: px;
   list-style: none;
   display: inline-block;
-  margin: .938rem 0px 0px 3.125rem;
+  margin: 15px 0px 0px 50px;
   padding: 0px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
@@ -36,7 +32,7 @@
 
 li::after {
   content: '';
-  height: 0.188rem;
+  height: 3px;
   width: 0%;
   background-color: #3700ff;
   display: block;
@@ -45,7 +41,7 @@ li::after {
 
 li:hover:after {
   content: '';
-  height: 0.188rem;
+  height: 3px;
   width: 100%;
   background-color: rgb(255, 0, 0);
   display: block;
@@ -59,18 +55,18 @@ li:hover:after {
 
 #button {
   position: absolute;
-  right: 0.625rem;
-  top: 1.563rem;
-  padding: 0.25rem 0.625rem 0.25rem 0.625;
+  right: 10px;
+  top: 25px;
+  padding: 4px 10px 4px 10px;
   background-color: rgb(243, 1, 1);
-  border-radius: 1.25rem;
+  border-radius: 20px;
   border-color: white;
   transition: transform .4s;
   border-style: none;
   font-family: 'Poppins', sans-serif;
   font-weight: 0px;
   color: aliceblue;
-  font-size: 1.125rem;
+  font-size: 18px;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
@@ -102,8 +98,8 @@ h2 {
   position: absolute;
   right: 50%;
   left: 8%;
-  margin: -0.063re;
-  margin-top: -1.875rem;
+  margin: -1px;
+  margin-top: -30px;
   margin-bottom: auto;
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
@@ -158,7 +154,7 @@ span {
 } */
 #head1 {
   margin: 0px 0px 0px 0px;
-  padding: 3.75rem 0.12rem 0.063rem 0.12rem;
+  padding: 60px 12% 1px 12%;
   position: relative;
   top: 120%;
   color: aliceblue;
@@ -173,32 +169,32 @@ span {
 /* -----card 1 -------*/
 .cardfirst {
   position: absolute;
-  top: 1.9rem;
-  right: 0.67rem;
-  width: 18.75rem;
-  height: 19.5625rem;
+  top: 190%;
+  right: 67%;
+  width: 300px;
+  height: 313px;
   background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
-  border-radius: 1.25rem;
+  border-radius: 20px;
   transition: all .3s;
 }
 
 .cardsecond {
-  width: 18.74rem;
-  height: 19.5625rem;
+  width: 300px;
+  height: 313px;
   background-color: #000000;
-  border-radius: 1.1875rem;
+  border-radius: 19px;
   transition: all .2s;
 }
 
 
 .cardsecond {
   transform: scale(0.98);
-  border-radius: 1.25rem;
+  border-radius: 20px;
 }
 
 .cardfirst:hover {
   background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
-  box-shadow: 0rem 0rem 1.875rem 0.0625rem rgb(255, 0, 0);
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
 }
 
 /* ISSUE */
@@ -206,62 +202,62 @@ span {
 /* -----card 2------- */
 .subcardfirst {
   position: absolute;
-  right: 0.37rem;
-  top: 1.9rem;
-  width: 18.75rem;
-  height: 19.5625rem;
+  right: 37%;
+  top: 190%;
+  width: 300px;
+  height: 313px;
   background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
-  border-radius: 1.25rem;
+  border-radius: 20px;
   transition: all .3s;
 }
 
 .subcardsecond {
-  width: 18.75rem;
-  height: 19.5625rem;
+  width: 300px;
+  height: 313px;
   background-color: #000000;
-  border-radius: 1.1875rem;
+  border-radius: 19px;
   transition: all .2s;
 }
 
 .subcardsecond {
   transform: scale(0.98);
-  border-radius: 1.25rem;
+  border-radius: 20px;
 }
 
 .subcardfirst:hover {
   background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
-  box-shadow: 0rem 0rem 1.875rem 0.0625rem rgb(255, 0, 0);
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
 }
 
 
 /* -----card 3-------*/
 .card1 {
   position: absolute;
-  top: 1.9rem;
-  right: 0.08rem;
-  width: 18.75rem;
-  height: 19.5625rem;
+  top: 190%;
+  right: 8%;
+  width: 300px;
+  height: 313px;
   background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
-  border-radius: 1.25rem;
+  border-radius: 20px;
   transition: all .3s;
 }
 
 .card2 {
-  width: 18.75rem;
-  height: 19.5625;
+  width: 300px;
+  height: 313px;
   background-color: #000000;
-  border-radius: 1.1875rem;
+  border-radius: 19px;
   transition: all .2s;
 }
 
 .card2 {
   transform: scale(0.98);
-  border-radius: 1.25rem;
+  border-radius: 20px;
 }
 
 .card1:hover {
   background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
-  box-shadow: 0px 0px 1.875rem 0.0625rem rgb(255, 0, 0);
+  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
 }
 
 /* -----card 4-------*/
@@ -612,34 +608,3 @@ footer p{
   margin-bottom: 10px;
   font-size: 1.1em;
 } */
-
-
-
-/* media */
-@media only screen and (min-width:800px)and(max-width:1280){
-
-  /*--------------------- Navbar.---------------------------- */
-  
-  .navbar {
-  width: 100%;
-  padding: 0px 0px 0px 0px;
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-}
-.navbar ul li {
-  position: relative;
-  right: 80px;
-  left: 0px;
-  color: #ff0000;
-  list-style: none;
-  display: inline-block;
-  margin: 15px 0px 0px 50px;
-  padding: 0px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-}
-
-
-}
