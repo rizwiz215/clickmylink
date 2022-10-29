@@ -2,6 +2,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: inherit;
 }
 
 /*--------------------- Navbar.---------------------------- */
@@ -19,7 +20,7 @@
   cursor: pointer;
 }
 
-.navbar ul li {
+.navbar ul .navbarlist {
   position: relative;
   right: 5rem;
   left: px;
@@ -31,7 +32,7 @@
   font-weight: bold;
 }
 
-li::after {
+.navbarlist::after {
   content: '';
   height: 0.188rem;
   width: 0%;
@@ -40,7 +41,7 @@ li::after {
   transition: .3s ease-in-out;
 }
 
-li:hover:after {
+.navbarlist:hover:after {
   content: '';
   height: 0.188rem;
   width: 100%;
@@ -48,7 +49,7 @@ li:hover:after {
   display: block;
 }
 
-.navbar ul li a {
+.navbar ul .navbarlist a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
@@ -58,6 +59,8 @@ li:hover:after {
   position: absolute;
   right: 0.625rem;
   top: 1.563rem;
+  height: 35px;
+  width: 80px;
   padding: 0.25rem 0.625rem 0.25rem 0.625;
   background-color: rgb(243, 1, 1);
   border-radius: 1.25rem;
@@ -67,7 +70,7 @@ li:hover:after {
   font-family: 'Poppins', sans-serif;
   font-weight: 0px;
   color: aliceblue;
-  font-size: 1.125rem;
+  font-size: 1.125em;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
@@ -84,7 +87,15 @@ li:hover:after {
 }
 
 /* Content */
-h4 {
+.content1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+word-wrap: break-word;
+
+}  
+ h4 {
   top: 50%;
   position: absolute;
   right: 50%;
@@ -105,7 +116,7 @@ h2 {
   color: aliceblue;
   font-family: 'Poppins', sans-serif;
   font-size: 600%;
-}
+} 
 
 #namste {
   font-size: 103%;
@@ -117,6 +128,9 @@ h2 {
   display: none;
 }
 
+span {
+  color: rgb(239, 11, 11);
+}
 /*.animation {
   background-color: blue;
   position: relative;
@@ -134,11 +148,8 @@ h2 {
     width: 400px;
 
   }
-} */
+} 
 
-span {
-  color: rgb(239, 11, 11);
-}
 
 /*--------------------- Services ---------------------------- */
 
@@ -364,7 +375,7 @@ span {
 } */ 
 /* for-demontration */
 
- .contentlorem2 {
+ .aboutcontent {
   position: absolute;
   top:400%;
   right: 2%;
@@ -390,26 +401,132 @@ span {
   background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
   border-radius: 20px;
   transition: all .3s;
-  
 }
 
 .piyushdwivedicard2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 420px;
+  background: #000000;
+  border-radius: 20px;
+  text-align: center;
+  color: #f0f0f0;
+  font-family: inherit;
+  z-index: 1;
+ }
+ 
+ .img {
+  display: flex;
+  margin: 60px auto 10px auto;
+  width: 75px;
+  height: 75px;
+  border: 1px solid #f0f0f0;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  z-index: 99;
+  background-color: #000000;
+ }
+ 
+ #paragraph {
+  opacity: 0;
+  transition: all 0.5s;
+ }
+ 
+ #piyushsus {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 25px;
+ }
+ 
+ .icon {
+  padding: 0 5px;
+  cursor: pointer;
+ }
+ 
+ .piyushdwivedicard2 {
+   transform: scale(0.98);
+   border-radius: 20px;
+  }
+ .piyushdwivedicard2:hover .img {
+  transform: scale(1.1);
+  border: 1px solid #f0f0f0;
+ }
+ 
+ .piyushdwivedicard2:hover h1,
+ .piyushdwivedicard2:hover p {
+  opacity: 1;
+ }
+  .piyushdwivedicard1:hover {
+   background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
+   box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
+  } 
+/* .piyushdwivedicard2 {
   width: 300px;
   height: 420px;
   background-color: #000000;
   border-radius: 19px;
   transition: all .2s;
+  color: #f0f0f0;
 }
 
-.piyushdwivedicard2 {
-  transform: scale(0.98);
-  border-radius: 20px;
-}
 
-.piyushdwivedicard1:hover {
-  background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
-  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
-} 
+
+/* .card {
+  width: 300px;
+  height: 420px;
+  background: #07182E;
+  border-radius: 5px;
+  text-align: center;
+  color: #f0f0f0;
+  font-family: inherit;
+  z-index: 1;
+ }
+ 
+ .img {
+  display: flex;
+  margin: 60px auto 10px auto;
+  width: 75px;
+  height: 75px;
+  border: 1px solid #f0f0f0;
+  border-radius: 50%;
+  font-size: 11px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  z-index: 99;
+  background-color: #152f50;
+ }
+ 
+ p {
+  opacity: 0;
+  transition: all 0.5s;
+ }
+ 
+ h1 {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+ }
+ 
+ svg {
+  padding: 0 5px;
+  cursor: pointer;
+ }
+ 
+ .piyushdwivedicard2:hover .img {
+  transform: scale(1.1);
+  border: 1px solid #f0f0f0;
+ }
+ 
+ .piyushdwivedicard2:hover h1,
+ .piyushdwivedicard2:hover p {
+  opacity: 1;
+ } */
 
 /* -----card 4-------*/
 
@@ -423,7 +540,6 @@ span {
   border-radius: 20px;
   transition: all .3s;
   text-align: right;
-  
 }
 
 .paraskamdarcard2 {
@@ -634,121 +750,85 @@ input[type=submit]:hover {
 .background{
   background-color: #000000;
   width: 100%;
-  height: 80vh;
+  height: 20vh;
 }
 
-/* svg{
-  position: absolute;
-  top: 635%;
-  height: 60vh;
-  width: 100%;
-} */
-/* 
-.footer1 {
-  position: absolute;
-  left: 1px;
-  top: 640%;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(163deg, #3700ff 0%, #ff0000 100%);
-  transition: all .3s;
+html{
+    height: 100%;
 }
 
-.footer2 {
-  left: 1px;
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
-  transition: all .2s;
+body{
+	font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
-.footer2 {
-transform: scale(0 , 0);
+a{
+    text-decoration: none;
 }
 
-.footer1:hover {
-  background-image: linear-gradient(163deg, #ff0000 0%, #3700ff 100%);
-  box-shadow: 0px 0px 30px 1px rgb(255, 0, 0);
-} */
-
-/*--------------------- media for 15.6 inch ---------------------------- */
-/* 
-#all{
-  background-color: #000000;
-  width: 100%;
-  height: 80vh;
-}
-#all{
-  display:flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  min-height: 80vh;
-  background: #334;
-}
 footer{
-  position:relative;
-  width: 100%;
-  background: rgb(255, 0, 0);
-  min-height: 100px;
-  padding: 20px 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-footer .social-icon,
-footer .menu
-{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  flex-wrap: wrap;
-}
-footer .social-icon li,
-footer .menu li
-{
-  list-style: none;
+    background-color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: auto;
 }
 
-footer .social-icon li a
-{
-  font-size: 2em;
-  color: aliceblue;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
+footer .listfooter {
+    list-style: none ;
+    margin: 10px;
+    display: inline-block;
 }
-footer .social-icon li a:hover{
-  transform:scale3d(10s);
 
+.icons a{
+    background: #000000;
+    color: #272727;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 100%;
+    display: flex;
 }
-footer .menu li a
-{
-  font-size: 1.2em;
-  color: aliceblue;
-  margin: 0 10px;
-  display: inline-block;
-  text-decoration: none;
-  opacity: 0.75;
+.icons a:hover{
+    color: #ffffff;
+    transition: 0.5s;
 }
-footer .menu li a:hover{
-  opacity: 1;
+
+.menu a{
+    color: #ffffff;
+    text-transform: none;
 }
-footer p{
-  color: aliceblue;
-  text-align: center;
-  margin-top:15px;
-  margin-bottom: 10px;
-  font-size: 1.1em;
+.menu a:hover{
+    color: #52527a;
+    transition: 0.5s;
+}
+
+.footer-copyright{
+  color: #ffffff;
+font-size:8px;
+  margin-top: 12px;
+  padding-bottom:15px ;
+  text-transform: none;
+  text-align: right;
+}
+
+
+/* .footer-copyright{
+
+    color: #ff0000;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.footer-copyright p{
+    margin-bottom: 0px;
 } */
 
-/* media */
+/* -------------------media------------------------ */
 @media 
 (max-width:430px) {
-
-
   /*--------------------- Navbar.---------------------------- */
   .navbar {
     width: 100%;
